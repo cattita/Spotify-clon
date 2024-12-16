@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Reproductor web: música para todos</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/spotify-icon.png">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <main class="main container">
+       <nav class="navbar">
+            <div class="topbar">
+                <div class="container-logo">
+                    <img src="/img/logo.png" alt="Logo Spotify" class="link-logo">
+                </div>
+            <div class="buttons-user">
+                <a href="https://accounts.spotify.com/es/login?continue=https%3A%2F%2Fopen.spotify.com%2Fintl-es" class="btn-register">Regístrate</a>
+                <a href="https://www.spotify.com/cl/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2Fintl-es" class="btn-login btn-full">Iniciar sesión</a>
+            </div>
+                <div class="nav-center">
+                    <button class="btn-home" title="Inicio">
+                        <i class="fa-solid fa-house"></i>               
+                    </button>
+                    <div class="search-bar">
+                        <input type="text" placeholder="       ¿Qué quieres reproducir?">
+                        <button class="btn-explore" title="Explorar">
+                            <img src="/img/explorar.png" alt="Explorar" title="Explorar" width="34" height="34">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav> 
+        <!-- SideBar -->
+        <div class="sidebar">
+                <ul class="nav-main">
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-book"></i>Tu bliblioteca
+                            <i class="fa-solid fa-plus"></i>
+                        </a> 
+                    </li>
+                </ul>
+                    <div class="extra-options">
+                        <div class="crear-playlist">
+                            <h1>Crea tu primera playlist</h1>
+                                <p>¡Es muy fácil! Te vamos a ayudar</p>
+                                <button class="btn-create-list">
+                                Crear playlist
+                                </button>
+                        </div>
+                        <div class="buscar-pdcast">
+                            <h1>Busquemos algunos podcast para seguir</h1>
+                                <p>Mantente al día con las novedades</p>
+                                <button class="btn-favorite-songs">
+                                Explorar podcast
+                                </button>
+                        </div>
+                    </div>
+                
+
+                    <div class="container-links">
+                        <div class="container-links-legal">
+                             <a href="https://www.spotify.com/cl/legal/">Legal</a>
+                            <a href="https://www.spotify.com/cl/safetyandprivacy">Seguridad y Centro de Privacidad</a>
+                            <a href="https://www.spotify.com/cl/legal/privacy-policy/">Política de Privacidad</a>
+                            <a href="https://www.spotify.com/cl/legal/cookies-policy/">Cookies</a>
+                            <a href="https://www.spotify.com/cl/legal/privacy-policy/#s3">Sobre los anuncios</a>
+                            <a href="https://www.spotify.com/cl/accessibility">Accesibilidad</a>
+                        </div>
+                        <button class="btn-language">
+                            <i class="fa-solid fa-globe"></i>
+                                Español de Latinoamérica
+                        </button>
+                    </div>
+        </div>
+
+        <!-- Contenido principal de la página -->
+        <section class="main-content">
+            <!-- Fila 1 -->
+            <div class="container-name-artist">
+                <h1 class="title-playlist">
+                    Artistas recomendados
+                </h1>
+                <div class="container-card-artist">
+                    <div class="card-artist">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="/img/bts.jpg" alt="BTS" width="160" height="160">
+                            </div>
+                            <h2>BTS</h2>
+                            <p>Artista</p>
+                        </div>
+                    </div>
+                    <div class="card-artist">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="/img/Halsey.jpg" alt="Halsey" width="160" height="160">
+                            </div>
+                            <h2>Halsey</h2>
+                            <p>Artista</p>
+                        </div>
+                    </div>
+                    <div class="card-artist">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="/img/kidd_voodoo.jpg" alt="Kidd Voodoo" width="160" height="160">
+                            </div>
+                            <h2>Kidd Voodoo</h2>
+                            <p>Artista</p>
+                        </div>
+                    </div>
+                    <div class="card-artist">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="/img/profile_gd.jpg" alt="G-DRAGON" width="160" height="160">
+                            </div>
+                            <h2>G-DRAGON</h2>
+                            <p>Artista</p>
+                        </div>
+                    </div>
+                    <div class="card-artist">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="/img/tate_mcrae.jpg" alt="Tate McRae" width="160" height="160">
+                            </div>
+                            <h2>Tate McRae</h2>
+                            <p>Artista</p>
+                        </div>
+                    </div>
+                    <div class="card-artist">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="/img/tiagopzk.jpg" alt="Tiago PZK" width="160" height="160">
+                            </div>
+                            <h2>Tiago PZK</h2>
+                            <p>Artista</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fila 2 -->
+            <div class="container-name-albums">
+                <h1 class="title-playlist">
+                    Albumes populares
+                </h1>
+                <div class="container-card-albums"> 
+                    <div class="card-albums">
+                        <div class="card">
+                            <div class="card-img-alb">
+                                <img src="/img/indigo_rm.jpg" alt="Indigo Album" width="150" height="150">
+                            </div>
+                            <h2>Indigo</h2>
+                            <p>RM</p>
+                        </div>
+                    </div>
+                    <div class="card-albums">
+                        <div class="card">
+                            <div class="card-img-alb">
+                                <img src="/img/the-most-beautiful-moment-in-life-pt2_bts.jpg" alt="TMBMIL-Pt.2 Album" width="150" height="150">
+                            </div>
+                            <h2>The Most Beautiful Moment in Life Pt.2</h2>
+                            <p>BTS</p>
+                        </div>
+                    </div>
+                    <div class="card-albums">
+                        <div class="card">
+                            <div class="card-img-alb">
+                                <img src="/img/sorry-estoy-en-mi-darkera_easikid.jpg" alt="Sorry, Estoy en Mi Darkera Album" width="150" height="150">
+                            </div>
+                            <h2>Sorry,Estoy en Mi Darkera</h2>
+                            <p>Easykid</p>
+                        </div>
+                    </div>
+                    <div class="card-albums">
+                        <div class="card">
+                            <div class="card-img-alb">
+                                <img src="/img/brat_charli-xcx.jpg" alt="BRAT Album" width="150" height="150">
+                            </div>
+                            <h2>BRAT</h2>
+                            <p>Charli xcx</p>
+                        </div>
+                    </div>
+                    <div class="card-albums">
+                        <div class="card">
+                            <div class="card-img-alb">
+                                <img src="/img/d-2_agustd.jpg" alt="D-2 Album" width="150" height="150">
+                            </div>
+                            <h2>D-2</h2>
+                            <p>Agust D</p>
+                        </div>
+                    </div>
+                    <div class="card-albums">
+                        <div class="card">
+                            <div class="card-img-alb">
+                                <img src="/img/positions_ariana-grande.jpg" alt="Positions Album"width="150" height="150">
+                            </div>
+                            <h2>Positions</h2>
+                            <p>Ariana Grande</p>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- Fila 3 -->
+
+            </div>
+        </section>
+
+
+        <!-- Final (Footer) -->
+        <footer class="footer">
+            <div class="container-links-footer">
+                <div class="links-footer">
+                    <h3>Compañía</h3>
+                    <a href="https://www.spotify.com/cl/about-us/contact/">Acerca de</a>
+                    <a href="https://www.lifeatspotify.com/">Empleo</a>
+                    <a href="https://newsroom.spotify.com/">For the Record</a>
+                </div>
+                <div class="links-footer">
+                    <h3>Comunidades</h3>
+                    <a href="https://artists.spotify.com/home">Para artistas</a>
+                    <a href="https://developer.spotify.com/">Desarrolladores</a>
+                    <a href="https://ads.spotify.com/en-US/">Publicidad</a>
+                    <a href="https://investors.spotify.com/home/default.aspx">Inversionistas</a>
+                    <a href="https://spotifyforvendors.com/">Proveedores</a>
+                </div>
+                <div class="links-footer">
+                    <h3>Enlaces útiles</h3>
+                    <a href="https://support.spotify.com/cl/">Ayuda</a>
+                    <a href="https://www.spotify.com/cl/free/">App móvil gratis</a>
+                </div>
+                <div class="links-footer">
+                    <h3>Planes de Spotify</h3>
+                    <a href="https://www.spotify.com/cl/premium/#ref=spotifycom_footer_premium_individual">Premium Individual</a>
+                    <a href="https://www.spotify.com/cl/duo/#ref=spotifycom_footer_premium_duo">Premium Duo</a>
+                    <a href="https://www.spotify.com/cl/family/#ref=spotifycom_footer_premium_family">Premium Familiar</a>
+                    <a href="https://www.spotify.com/cl/student/#ref=spotifycom_footer_premium_student">Premium para Estudiantes</a>
+                    <a href="https://www.spotify.com/cl/free/#ref=spotifycom_footer_free">Versión gratuita</a>
+                </div>
+                
+                <div class="social-icons">
+                    <div class="container-icon" title="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="container-icon" title="X">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="container-icon" title="Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Spotify AB</p>
+            </div>
+        </footer>
+    </main>
+   
+    <div class="banner-bottom">
+        <div class="content">
+            <span>Muestra de Spotify</span>
+            <p>
+                Regístrate para acceder a canciones y podcasts ilimitados con algunos anuncios. No necesitas tarjeta de crédito.
+            </p>
+        </div>
+        <button class="btn-full">Regístrate gratis</button>
+    </div>
+
+    <!-- script de FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/a4aa284402.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
