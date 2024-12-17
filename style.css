@@ -21,6 +21,26 @@ html{
         margin-bottom: 8rem;        
     }
 
+    @media (max-width: 768px) {
+        .container {
+            grid-template-columns: 1fr;
+        }
+    
+        nav {
+            flex-direction: column;
+            height: auto;
+        }
+    
+        .search-bar input {
+            width: 80%;
+            left: 5%;
+            top: 5rem;
+        }
+    
+        .sidebar {
+            display: none; 
+        }
+    }
 
 /* NAVBAR */
 nav {
@@ -151,7 +171,7 @@ nav {
 
     position: fixed;
     width: 30rem;
-    height: calc(100vh - 7rem);
+    height: 100;
 }
 
 .nav-main{
